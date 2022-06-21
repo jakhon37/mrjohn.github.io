@@ -20,12 +20,25 @@
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
 
+      h5.menu-guide {
+        color: rgb(255, 218, 7);
+        font-size:48px;
+        text-align: right;
+        margin-right:60pt;
+        margin-top: 0pt;
+      
+      }
+
+
+
+
 .menu {
   position: fixed;
   top: 0;
   width: 100%;
   opacity: 0.9;
   visibility: hidden; }
+
   .menu.show {
     visibility: visible; }
   .menu-branding, .menu-nav {
@@ -132,7 +145,7 @@ h3 {
 
 a {
   color: #fff;
-  text-decoration: none; }
+  /*text-decoration: none;*/ }
 
 header {
   position: fixed;
@@ -155,7 +168,7 @@ main {
   main#home {
     overflow: hidden; }
     main#home h1 {
-      margin-top: 20vh; }
+      margin-top: 2vh; }
 
 .about-info {
   display: grid;
